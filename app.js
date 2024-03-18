@@ -10,12 +10,18 @@ function calculateAdultYears(userAge) {
 }
 
 totalAdultYears = calculateAdultYears(age);
-alert(totalAdultYears);
+console.log(totalAdultYears);
 
 age = 28;
 totalAdultYears = calculateAdultYears(age);
 
-alert(totalAdultYears);
+console.log(totalAdultYears);
 
 
+let person = {name : "Maki",
+greet() {
+console.log("Hello");
+}
+}
 
+person.greet();
